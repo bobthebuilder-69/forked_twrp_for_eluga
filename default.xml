@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="twrp" fetch="https://github.com/minimal-manifest-twrp" />
+  <remote name="twrp" fetch="git://github.com/minimal-manifest-twrp/" />
 
   <default revision="twrp-11" remote="twrp" sync-j="1" />
 
-  <!-- Minimal TWRP source dependencies -->
   <project name="android_build" path="build" />
   <project name="android_bootable_recovery" path="bootable/recovery" />
   <project name="android_system_core" path="system/core" />
